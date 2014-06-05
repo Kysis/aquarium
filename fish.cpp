@@ -9,6 +9,5 @@ Fish::Fish(std::string Breed){
 }
 
 
-Fish::~Fish()
-{
+Fish::~Fish(){
 }
