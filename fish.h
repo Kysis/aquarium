@@ -2,10 +2,8 @@
 #include <string>
 class Fish{
 public:
-	Fish();
-
+	Fish(std::string breed);
 	~Fish();
-
 private:
 
 	std::string breed;
