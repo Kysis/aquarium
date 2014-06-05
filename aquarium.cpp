@@ -10,6 +10,10 @@ Aquarium::Aquarium(){
 Aquarium::~Aquarium(){
 }
 
+std::vector<Fish>* Aquarium::getFish(){
+	return fish;
+}
+
 void Aquarium::addFish(Fish newFish){
 	fish->push_back(newFish);
 }

@@ -7,6 +7,7 @@ public:
 	Aquarium();
 	~Aquarium();
 	void addFish(Fish fish);
+	std::vector<Fish>* getFish();
 	int getTemperature();
 	void setTemperature(int temp);
 
